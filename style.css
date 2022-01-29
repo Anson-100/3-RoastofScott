@@ -1,8 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color:rgb(14, 14, 14);
     margin: 0;
-    background-color: rgb(39, 39, 39)
-    
+    background-color: rgb(167, 207, 199);
 }
 
 .header {
@@ -11,14 +11,15 @@ body {
     justify-content: space-between;
     padding: 0px;
     text-align: center;
-    background: rgb(14, 13, 13);
+    background: rgb(167, 207, 199);
     font-size: 20px;
     color: rgb(255, 255, 255)
 }
 
 .title {
-    position: absolute;
-    left: 100px;
+    color: rgb(255, 255, 255);
+    margin-right: auto;
+    
 }
 
 .navbar {
@@ -35,4 +36,13 @@ body {
 
 .contact {
     padding: 20px;
+}
+/**body-section**/
+
+
+.purpose {
+    background:rgb(167, 207, 199);
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
